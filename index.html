@@ -7,11 +7,12 @@
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <meta charset="utf-8">
-    <title></title>
+    <title>Favorite Arrays</title>
   </head>
   <body>
     <div class="container">
-      <form class="Fave" action="index.html" method="post">
+      <h1>Tell us about you!</h1>
+      <form id="fave" action="index.html" method="post">
         <div class="form-group">
           <label for="color">Please enter your favorite color.</label>
           <input id="color" type="text" class="form-control">
@@ -27,8 +28,14 @@
           <input id="animal" type="text" class="form-control">
         </div>
 
-        <button type="submit" name="button">Submit</button>
+        <button type="submit">Submit</button>
+
       </form>
+      <ul>
+        <li id="res1"></li>
+        <li id="res2"></li>
+        <li id="res3"></li>
+      </ul>
     </div>
   </body>
 </html>
